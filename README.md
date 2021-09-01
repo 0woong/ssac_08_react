@@ -20,3 +20,10 @@
 ### Visual Studio Code
 
 - 설치
+
+### React 프로젝트 설치
+
+- npx create-react-app [폴더이름]
+- 폴더 이름 : . - 현재폴더
+
+
