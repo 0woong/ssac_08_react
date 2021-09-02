@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Props3 from './Props3';
 import AppEvent from './AppEvent';
+import AppArray from './AppArray';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <AppEvent />
+    {/* <AppEvent /> */}
+    <AppArray />
   </React.StrictMode>,
   document.getElementById('root'),
 );
