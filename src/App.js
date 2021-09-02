@@ -11,14 +11,14 @@ import TodoFooter from './component/TodoFooter';
 function App() {
   return (
     <>
-    <TodoHeader />
-    <TodoMain>
-      <TodoList>
-        <TodoItem />
-      </TodoList>
-      <TodoStatus />
-    </TodoMain>
-    <TodoFooter />
+      <TodoHeader />
+      <TodoMain>
+        <TodoList>
+          <TodoItem />
+        </TodoList>
+        <TodoStatus />
+      </TodoMain>
+      <TodoFooter />
     </>
   );
 }
