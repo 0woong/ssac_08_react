@@ -1,9 +1,7 @@
-import JsEvent from "./JsEvent";
+import JsEvent from './AppEvent';
 
-function AppEvent(){
-    return(
-        <JsEvent />
-    );
+function AppEvent() {
+  return <JsEvent />;
 }
 
 export default AppEvent;
