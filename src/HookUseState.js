@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState, useRef } from 'react';
 
 function HookUseState() {
   const inputDom = useRef();
@@ -34,6 +34,8 @@ function HookUseState() {
 
   return (
     <>
+      <br />
+      <br />
       <div>
         <div>{value}</div>
         <button type="button" onClick={add}>
