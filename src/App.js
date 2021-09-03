@@ -47,7 +47,7 @@ function App() {
 
   const nextId = useRef(4);
 
-  // const [number, setNumber] = useRef(3);
+  const [number, setNumber] = useState(3);
 
   // 버튼 클릭시 input에 입력되어 있는 텍스트를 기본 데이터 배열에 추가 / 리렌더링
   const addTodo = () => {
@@ -62,7 +62,7 @@ function App() {
       todoContent: '',
     });
 
-    // setNumber(number + 1);
+    setNumber(number + 1);
 
     nextId.current++;
   };
@@ -75,7 +75,7 @@ function App() {
       }),
     );
 
-    // setNumber(number - 1);
+    setNumber(number - 1);
   };
 
   return (
@@ -87,7 +87,7 @@ function App() {
       />
       <TodoMain>
         <TodoList todoArray={todoArray} removeTodo={removeTodo} />
-        <TodoStatus />
+        <TodoStatus number={number} />
       </TodoMain>
       <TodoFooter />
     </>
